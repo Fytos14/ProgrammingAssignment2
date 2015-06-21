@@ -8,7 +8,7 @@ makeCacheMatrix<-function(x=matrix()){
   get<-function() x
   setmatrix<-function(solve) m<<- solve
   getmatrix<-function() m
-  list(set=set, get=get,setmatrix=setmatrix,getmatrix=getmatrix) ##lists alla commands in function
+  list(set=set, get=get,setmatrix=setmatrix,getmatrix=getmatrix) ##lists all commands in function
 }
 
 ##function to used cached stored information to return the answer
