@@ -1,6 +1,4 @@
 
-
-
 makeCacheMatrix<-function(x=matrix()){
   m<-NULL
   set<-function(y){
@@ -23,11 +21,5 @@ cacheSolve <- function(x, ...) {
   matrix<-x$get()
   inv<-solve(matrix, ...) ##calculates the inverse
   x$setmatrix(inv)
-  inv ##returns the inverse
-}
-
-
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+  inv ##returns the inverse thus the answer
 }
